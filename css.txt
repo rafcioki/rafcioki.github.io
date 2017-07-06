@@ -1,2 +1,7 @@
-test
-test
+TEXT-OVERFLOW: ELLIPSIS;
+For that to work these two conditions must be fullfilled:
+1) The element's width must be constrained (so inline element won't do).
+2) The element must have overflow: hidden and white-space: no-wrap set.
+
+DIV TAKING ONLY CHILDREN WIDTH:
+Must have display: inline-block.
