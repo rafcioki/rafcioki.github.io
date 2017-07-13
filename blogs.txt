@@ -5,7 +5,4 @@ Probably won't age:
 https://www.hanselman.com/blog/URLsAreUI.aspx - how UX and URLs are connected.
 
 Will age / technical:
-
-
-
-
+https://auth0.com/blog/glossary-of-modern-javascript-concepts/
