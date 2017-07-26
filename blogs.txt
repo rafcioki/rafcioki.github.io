@@ -6,3 +6,4 @@ https://www.hanselman.com/blog/URLsAreUI.aspx - how UX and URLs are connected.
 
 Will age / technical:
 https://auth0.com/blog/glossary-of-modern-javascript-concepts/
+https://msdn.microsoft.com/en-us/magazine/dn802603.aspx - async/await in C#, mostly for the server
