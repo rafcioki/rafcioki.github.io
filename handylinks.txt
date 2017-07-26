@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/40275195/how-to-setup-automapper-in-asp-net-core
