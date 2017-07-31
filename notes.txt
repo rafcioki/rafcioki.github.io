@@ -1,0 +1,11 @@
+https://www.troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era/
+1) Don't limit passwords length (and if you do that's because you're thinking of limitations like ASP.NET max request size and stuff like that)
+2) Don't chop off characters at the end of user's passwords
+3) Allow for all characters - disallowing f.e. apostrophes because of SQL injection is retarded - password won't be stored as plain text anyway.
+4) Composition rules - nope. Passwords like "Password!" can still go through, while generated, lowercase, extrasecure passwords won't. Also people are simply swapping characters (l1k3 th1s) - atackers are aware of that during dictionary attacks.
+5) No hints - they are user provided, usually stored in plain text, just nope.
+6) Use password managers
+7) Allow pasting passwords - disallowing that encourages easier (to type) passwords.
+8) Mandate, periodic password changes are pointless. Ask for password resets (or force them) only on suspicion of compromise.
+9) Notify users of abnormal behaviour
+10) You may compare users' passwords with some table containing passwords from previous attacks and not let them use it.
