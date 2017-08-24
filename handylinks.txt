@@ -1,1 +1,2 @@
 https://stackoverflow.com/questions/40275195/how-to-setup-automapper-in-asp-net-core
+https://twitter.com/i/moments/880688233641848832 - great UI tips
